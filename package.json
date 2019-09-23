@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/webdigga/fantasy-dashboard/issues"
   },
-  "homepage": "https://github.com/webdigga/fantasy-dashboard#readme"
+  "homepage": "https://github.com/webdigga/fantasy-dashboard#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
