@@ -6,6 +6,8 @@ app.get( '/', ( req, res ) => {
     res.send( 'Hello fantasy dashboard!' );
 });
 
+app.use( require( './routes/my-team' ) );
+
 app.listen( port, () => {
     console.log( `This application is running on port ${ port }` );
 });
